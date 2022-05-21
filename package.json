@@ -1,0 +1,23 @@
+{
+  "name": "morfo",
+  "version": "1.0.0",
+  "description": "morphologer",
+  "main": "prepare.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlyaKrapivkin/morfo.git"
+  },
+  "author": "Ilya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IlyaKrapivkin/morfo/issues"
+  },
+  "homepage": "https://github.com/IlyaKrapivkin/morfo#readme",
+  "type": "module",
+  "dependencies": {
+    "libreoffice-convert": "1.4.1"
+  }
+}

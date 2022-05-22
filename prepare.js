@@ -54,7 +54,7 @@ async function main() {
     const fileNameOut = `${fio}${extOut}`
     const inputPath = path.join(folderInPath, fileNameIn)
     const outputPath = path.join(folderOutPath, fileNameOut)
-    const command = `mystem.exe -ncgi --eng-gr ${fileNameOut} out\\${fileNameOut}\n`
+    const command = `mystem.exe -ncgi --eng-gr ${fileNameOut} count_in\\${fileNameOut}\n`
     commands.push(command)
 
     const inBuf = await fsp.readFile(inputPath)
